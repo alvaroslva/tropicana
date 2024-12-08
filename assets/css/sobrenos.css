@@ -1,0 +1,172 @@
+body{
+    background-color: var(--color-1);
+}
+.conteudo-imagem{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudo-imagem h2{
+    color: var(--color-6);
+}
+
+.conteudo-imagem2{
+    background-color: var(--color-2);
+}
+
+.conteudo-imagem2 p{
+    color: rgba(0, 0, 0, 0.659);
+}
+
+.justify {
+    text-align: justify;
+}
+
+.image{
+    max-width: 600px;
+    width: 100%;
+    height: 100%; /* Ajuste a altura conforme necessário */
+    background-image: url('../img/crianças.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px; /* Cria o efeito de parallax */
+}
+.image2{
+    max-width: 600px;
+    width: 100%;
+    height: 100%; /* Ajuste a altura conforme necessário */
+    background-image: url('../img/equipe.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px; /* Cria o efeito de parallax */
+}
+
+.image img, .image2 img{
+    border-radius: 30px;
+    width: 100%;
+    visibility: hidden;
+    
+}
+
+.btn{
+    text-decoration: none;
+}
+
+.conteudo-principal {
+    padding: 50px 20px;
+    max-width: 600px;
+    line-height: 2;
+}
+
+
+main .conteudo-principal p {
+    font-family: var(--fonte-principal);
+}
+#botoes{
+    display: flex;
+    gap: 10px;
+    padding: 40px 0;
+}
+
+#botoes p a{
+    color: white;
+    text-decoration: none;
+}
+
+#ep, #eventos{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.293);
+}
+
+#ep:hover, #eventos:hover{
+    background-color: red;
+    transition: .1s;
+}
+
+
+/* pessoas */
+
+#pessoas{
+    background-color: var(--color-5);
+    color: var(--color-1);
+    text-align: center; 
+    padding-block: 130px;
+}
+
+#pessoas > p {
+    padding: 30px;
+    margin: auto;
+    max-width: 700px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.individuo{
+    background-color: var(--color-6);
+    color: white;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.386);
+    
+}
+
+.individuo h2{
+    padding-top: 10px;
+}
+
+.individuo p {
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 30px 30px;
+}
+
+#pessoas .tit{
+    font-family: var(--fonte-titulo);
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+#tds{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.individuo img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+
+
+@media screen and (max-width: 1428px){
+    .conteudo-imagem h1, .conteudo-imagem h2{
+        text-align: center;
+    }
+    
+    .dir #botoes{
+        justify-content: center;
+    }
+    #botoes{
+        justify-content: center;
+    }
+    .conteudo-principal {
+        max-width: 900px;
+    }
+    #pessoas .tit{
+        font-size: 2.5rem;
+    }
+    
+    .conteudo-imagem2{
+        flex-wrap: wrap-reverse;
+    }
+}
+

@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TropiCana</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/cardapio.css">
+    <link rel="stylesheet" href="assets/css/test.css">
+    <link rel="stylesheet" href="assets/css/ofertas.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/banner_rotativo.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    
+    <header>
+        <nav id="menu">
+            <a href="#"><img class="menu_logo" src="assets/img/logo_transparent.png" alt="Logo"></a>
+            <ul id="menu_lista">
+                <li class="menu-item">
+                    <a href="index.html">Explorar</a>
+                </li>
+                <li class="menu-item">
+                    <a href="index.html#cardapio">Cardápio</a>
+                </li>
+                <li class="menu-item">
+                    <a href="sobrenos.html">Sobre nós</a>
+                </li>
+                <li class="menu-item">
+                    <a href="game.html">Ganhe um cupom</a>
+                </li>
+            </ul>
+
+            <div id="cta_buttons">
+                <a href="https://drive.google.com/drive/folders/188MlLpuG5HHtr3Cb3CiArP4mLlLQx0Uz" target="_blank" class="btn">
+                    Imprensa
+                </a>
+            </div>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>   
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_menu_lista">
+                <li class="menu-item">
+                    <a href="#">Explorar</a>
+                </li>
+                <li class="menu-item">
+                    <a href="index.html#cardapio">Cardápio</a>
+                </li>
+                <li class="menu-item">
+                    <a href="sobrenos.html">Sobre nós</a>
+                </li>
+                <li class="menu-item">
+                    <a href="game.html">Ganhe um cupom</a>
+                </li>
+            </ul>
+
+            <div id="cta_buttons">
+                <a href="https://drive.google.com/drive/folders/188MlLpuG5HHtr3Cb3CiArP4mLlLQx0Uz" class="btn">
+                    Imprensa
+                </a>
+            </div>
+
+
+        </div>
+    </header>
+
+
+    <main id="content">
+
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Doçura que <br><span class="expande colorir">renova</span>
+                </h1>
+                <p class="description">A vida é corrida, né? A gente precisa de um boost de energia para encarar a correria do dia a dia. E nada melhor do que uma dose de doçura para renovar as energias e te dar aquele gás extra!
+                    Aqui na TropiCana, você encontra a doçura perfeita para qualquer momento.</p>
+                <div id="cta_buttons">
+                    <a href="#cardapio" class="btn">
+                        Ver Cardápio
+                    </a>
+                    <a href="tel:+5555555555" id="phone_button">
+                        <button class="btn">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (19) 99599-1234
+                    </a>
+                </div>
+                <div class="social-media-buttons">
+                    <a href="https://web.whatsapp.com">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://instagram.com">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://facebook.com">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="assets/img/latinha/limao.png" alt="Banner">
+            </div>
+
+            <div class="latinha">
+                <div class="bolinha" id="fruta1"></div>
+                <div class="bolinha" id="fruta2"></div>
+                <div class="bolinha" id="fruta3"></div>
+                <div class="bolinha" id="fruta4"></div>
+                <div class="bolinha" id="fruta5"></div>
+            </div>
+
+        </section>
+
+        <section id="cardapio">
+            <h2 class="section-title" id="carda">Cardápio</h2>
+            <h3 class="section-subtitle title">Nossas canas especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa solid fa-heart"></i>
+                    </div>
+
+                    <img class="dish-image" src="assets/img/latinha/limao.png" alt="Imagem">
+
+                    <h3 class="dish-title">
+                        Limão
+                    </h3>
+
+                    <span class="dish-description">
+                        Refrescante e vibrante.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(920+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$9,00</h4>
+                        <button class="btn">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa solid fa-heart"></i>
+                    </div>
+
+                    <img class="dish-image" src="assets/img/latinha/abacaxi.png" alt="Imagem">
+
+                    <h3 class="dish-title">
+                        Abacaxi
+                    </h3>
+
+                    <span class="dish-description">
+                        Tropical e delicioso.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$9,00</h4>
+                        <button class="btn">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa solid fa-heart"></i>
+                    </div>
+
+                    <img class="dish-image" src="assets/img/latinha/caju.png" alt="Imagem">
+
+                    <h3 class="dish-title">
+                        Caju
+                    </h3>
+
+                    <span class="dish-description">
+                        Doçura suave.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(730+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$9,00</h4>
+                        <button class="btn">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa solid fa-heart"></i>
+                    </div>
+
+                    <img class="dish-image" src="assets/img/latinha/maracuja.png" alt="Imagem">
+
+                    <h3 class="dish-title">
+                        Maracuja
+                    </h3>
+
+                    <span class="dish-description">
+                        Azedinho e intenso.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(410+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$9,00</h4>
+                        <button class="btn">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa solid fa-heart"></i>
+                    </div>
+
+                    <img class="dish-image" src="assets/img/latinha/morango.png" alt="Imagem">
+
+                    <h3 class="dish-title">
+                        Morango
+                    </h3>
+
+                    <span class="dish-description">
+                        Doçura irresistível.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(800+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$9,00</h4>
+                        <button class="btn">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+        </section>
+
+        <section id="ofertas" class="ofertas1">
+            <h1 class="title">Sobre nós</h1>
+            <p>Conheça mais sobre os ideais tropicanos</p>
+            <div id="cta_buttons">
+                <a href="sobrenos.html" class="btn">
+                    Leia Mais
+                </a>
+            </div>
+        </section>
+
+        <section id="test">
+            <img src="assets/img/pessoa6.png" id="test_pessoa" alt="Pessoa avaliando">
+
+            <div id="test_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle title">
+                    O que os clientes falam sobre nós?
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="assets/img/avatar1.jpg" id="avatar" alt="feedback">
+
+                        <div class="feedback-content">
+                            <p class="feedback-content-p">
+                                Gabigol
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                        <p>"Tomar esse caldo de cana é tão bom quanto jogar bola! Na beira da praia, escutando um pagode com a familía..."</p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="assets/img/avatar2.png" id="avatar" alt="feedback">
+
+                        <div class="feedback-content">
+                            <p class="feedback-content-p">
+                                Débora Aladim
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                        <p>"Gostei muito. Recomendo a todos! Muito melhor do que ficar refém do caldo de cana da feira, que ainda por cima é um absurdo!"</p>
+                        </div>
+                    </div>
+
+                    <div class="feedback feedback-hidden">
+                        <img src="assets/img/pessoas/pogba.jpg" id="avatar" alt="feedback">
+
+                        <div class="feedback-content">
+                            <p class="feedback-content-p">
+                                Carlos
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                        <p>"Sempre gostei do sabor da Tropicana, é refrescante e tem uma variedade que nunca decepciona. A combinação perfeita para os dias quentes."</p>
+                        </div>
+                    </div>
+                    <div class="feedback feedback-hidden">
+                        <img src="assets/img/pessoas/belligol.webp" id="avatar" alt="feedback">
+
+                        <div class="feedback-content">
+                            <p class="feedback-content-p">
+                                André
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                        <p>"A Tropicana traz uma experiência única com seus sabores naturais. Eu particularmente sou fã do suco de laranja, que é sempre uma escolha certeira."</p>
+                        </div>
+                    </div>
+                    <div class="feedback feedback-hidden">
+                        <img src="assets/img/pessoas/kai.jpg" id="avatar" alt="feedback">
+
+                        <div class="feedback-content">
+                            <p class="feedback-content-p">
+                                Felipe
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                        <p>"Eu adoro a Tropicana porque me lembra os momentos de relaxamento em família. Nada melhor do que tomar um suco fresco depois de um dia longo."</p>
+                        </div>
+                    </div>
+                    <div class="feedback feedback-hidden">
+                        <img src="assets/img/pessoas/marta.webp" id="avatar" alt="feedback">
+
+                        <div class="feedback-content">
+                            <p class="feedback-content-p">
+                                Marta
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                        <p>"Gosto muito dos sucos naturais, que são refrescantes e sempre saborosos, essenciais para o meu dia a dia de treinos e jogos."</p>
+                        </div>
+                    </div>
+                    <div class="feedback feedback-hidden">
+                        <img src="assets/img/pessoas/ney.jpeg" id="avatar" alt="feedback">
+
+                        <div class="feedback-content">
+                            <p class="feedback-content-p">
+                                Lucas
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                        <p>"Eu sou muito exigente com o sabor de sucos, mas a Tropicana nunca me decepciona. Seus sucos têm o equilíbrio perfeito entre doce e ácido, sempre refrescante."</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <button class="btn" id="tirarHidden">
+                    Ver Mais Avaliações
+                </button>
+            </div>
+        </section>
+
+        
+        <section id="cadastro">
+            <div id="cadastro_text">
+                <h1 class="title">
+                    Acerte e Ganhe
+                </h1>
+                <p class="description">
+                    Responda às perguntas do nosso quiz para desbloquear um cupom promocional imperdível!
+                </p>
+                <div id="cta_buttons">
+                    <a href="game.html" class="btn">
+                        Jogar Quiz
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner2">
+                <img src="assets/img/cana.jpg" alt="Banner">
+            </div>
+        </section>
+
+        <section id="news_paralax">
+            <h1 class="title" id="white">Veja a nossa equipe</h1>
+            <p>Com talentos únicos, juntos transformamos ideias em realidade!</p>
+            <div id="cta_buttons">
+                <a href="sobrenos.html#pessoas" class="btn">
+                    Ver equipe
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="footer-content">
+            <div id="footer-contacts">
+                <img src="assets/img/logo_transparent.png" class="menu_logo">
+                <p>Doçura que
+                    renova</p>
+
+                <div id="footer-social-media">
+                    <a href="https://www.instagram.com" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/neymarjr/?locale=pt_BR" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://web.whatsapp.com/"class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Tropicana</h3>
+                </li>
+                <li>
+                    <a href="index.html" class="footer-link">Produtos</a>
+                </li>
+                <li>
+                    <a href="index.html#cardapio" class="footer-link">Cardápio</a>
+                </li>
+                <li>
+                    <a href="produtos.html" class="footer-link">Preços</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Sobre Nós</h3>
+                </li>
+                <li>
+                    <a href="sobrenos.html" class="footer-link">Nossa visão</a>
+                </li>
+                <li>
+                    <a href="sobrenos.html#pessoas" class="footer-link">Equipe</a>
+                </li>
+            </ul>
+
+
+
+
+            <div id="footer-subscribe">
+                <h3>Cadastre-se</h3>
+
+                <p>
+                    Entre com seu e-mail para receber notificações dos novos lançamentos
+                </p>
+
+                <div id="input-group">
+                    <input type="E-mail" class="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="footer-copyright2">
+            Avenida dos Sabores, 173, Bairro Canavial,
+            Pirassununga - SP
+        </div>
+        <div id="footer-copyright">
+            &#169
+            2024 all right reserved
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/latinha.js"></script>
+    <script src="assets/js/depoimentos.js"></script>
+
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/banner_rotativo.js"></script>
+</body>
+</html>

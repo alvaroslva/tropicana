@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - TropiCana</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/game.css">
+    <link rel="stylesheet" href="assets/css/ofertas.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+
+    <header>
+        <nav id="menu">
+            <a href="#"><img class="menu_logo" src="assets/img/logo_transparent.png" alt="Logo"></a>
+            <ul id="menu_lista">
+                <li class="menu-item">
+                    <a href="index.html">Explorar</a>
+                </li>
+                <li class="menu-item">
+                    <a href="index.html#cardapio">Cardápio</a>
+                </li>
+                <li class="menu-item">
+                    <a href="sobrenos.html">Sobre nós</a>
+                </li>
+                <li class="menu-item">
+                    <a href="game.html">Ganhe um cupom</a>
+                </li>
+            </ul>
+
+            <div id="cta_buttons">
+                <a href="https://drive.google.com/drive/folders/188MlLpuG5HHtr3Cb3CiArP4mLlLQx0Uz" target="_blank" class="btn">
+                    Imprensa
+                </a>
+            </div>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>   
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_menu_lista">
+                <li class="menu-item">
+                    <a href="#">Explorar</a>
+                </li>
+                <li class="menu-item">
+                    <a href="index.html#cardapio">Cardápio</a>
+                </li>
+                <li class="menu-item">
+                    <a href="sobrenos.html">Sobre nós</a>
+                </li>
+                <li class="menu-item">
+                    <a href="game.html">Ganhe um cupom</a>
+                </li>
+            </ul>
+
+            <div id="cta_buttons">
+                <a href="https://drive.google.com/drive/folders/188MlLpuG5HHtr3Cb3CiArP4mLlLQx0Uz" class="btn">
+                    Imprensa
+                </a>
+            </div>
+
+
+        </div>
+    </header>
+
+
+    <main>
+        <section id="quiz">
+
+            <section id="ofertas" class="padding ofertas1">
+                <h1 class="title">Quiz Tropicana</h1>
+                <p>Ganhe um cupom promocional!</p>
+            </section>
+            
+
+            <div class="perguntas">
+                <div id="pergunta1">
+                    <h1>1) Qual é a origem da cana-de-açúcar?</h1>
+                    <p onclick="selecionarResposta(this)">a) África</p>
+                    <p onclick="selecionarResposta(this)">b) América do Sul</p>
+                    <p onclick="selecionarResposta(this)">c) Ásia</p>
+                    <p onclick="selecionarResposta(this)" class="certa">d) Índia</p>
+                </div>
+                <div id="pergunta2">
+                    <h1>2) Qual é o benefício ambiental da cana-de-açúcar?</h1>
+                    <p onclick="selecionarResposta(this)">a) Produz plástico biodegradável</p>
+                    <p onclick="selecionarResposta(this)" class="certa">b) Pode ser usada para produzir biocombustíveis</p>
+                    <p onclick="selecionarResposta(this)">c) Reduz o consumo de água</p>
+                    <p onclick="selecionarResposta(this)">d) Cresce em qualquer solo sem fertilizantes</p>
+                </div>
+                <div id="pergunta3">
+                    <h1>3) Qual desses alimentos pode ser feito com cana?</h1>
+                    <p onclick="selecionarResposta(this)" class="certa">a) Rapadura</p>
+                    <p onclick="selecionarResposta(this)">b) Chocolate</p>
+                    <p onclick="selecionarResposta(this)">c) Batata frita</p>
+                    <p onclick="selecionarResposta(this)">d) Mel de abelha</p>
+                </div>
+                <div id="pergunta4">
+                    <h1>4) Qual sabor combina melhor com cana em uma bebida?</h1>
+                    <p onclick="selecionarResposta(this)">a) Pimenta</p>
+                    <p onclick="selecionarResposta(this)" class="certa">b) Limão</p>
+                    <p onclick="selecionarResposta(this)">c) Canela</p>
+                    <p onclick="selecionarResposta(this)">d) Baunilha</p>
+                </div>
+                <div id="pergunta5">
+                    <h1>5) O caldo de cana é rico em qual nutriente?</h1>
+                    <p onclick="selecionarResposta(this)" class="certa">a) Carboidratos</p>
+                    <p onclick="selecionarResposta(this)">b) Proteínas</p>
+                    <p onclick="selecionarResposta(this)">c) Fibras</p>
+                    <p onclick="selecionarResposta(this)">d) Gorduras</p>
+                </div>
+            </div>
+            <button id="enviar">Ver Resultado</button>
+            <div id="premio">
+                <h1 class="title">Parabéns!</h1>
+                <h2>Você ganhou um desconto especial! </h2>
+                <div class="premio-cupom">
+                    <div class="ibagem">
+                        <img id="qrcode" alt="QR Code do desconto" src="assets/img/qrcode.png"/>
+                    </div>
+                    <p id="codigoPromocional">Código Promocional:</p>
+                    <h2>TROPICAL15</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="ofertas" class="padding ofertas1">
+            <h1 class="title">Conheça nossos produtos</h1>
+            <p>Oferta doce como açúcar!</p>
+            <div id="cta_buttons">
+                <a href="index.html#cardapio" class="btn">
+                    Ver produtos
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="footer-content">
+            <div id="footer-contacts">
+                <img src="assets/img/logo_transparent.png" class="menu_logo">
+                <p>Doçura que
+                    renova</p>
+
+                <div id="footer-social-media">
+                    <a href="https://www.instagram.com" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/neymarjr/?locale=pt_BR" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://web.whatsapp.com/"class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Tropicana</h3>
+                </li>
+                <li>
+                    <a href="index.html" class="footer-link">Produtos</a>
+                </li>
+                <li>
+                    <a href="index.html#cardapio" class="footer-link">Cardápio</a>
+                </li>
+                <li>
+                    <a href="produtos.html" class="footer-link">Preços</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Sobre Nós</h3>
+                </li>
+                <li>
+                    <a href="sobrenos.html" class="footer-link">Nossa visão</a>
+                </li>
+                <li>
+                    <a href="sobrenos.html#pessoas" class="footer-link">Equipe</a>
+                </li>
+            </ul>
+
+
+
+
+            <div id="footer-subscribe">
+                <h3>Cadastre-se</h3>
+
+                <p>
+                    Entre com seu e-mail para receber notificações dos novos lançamentos
+                </p>
+
+                <div id="input-group">
+                    <input type="E-mail" class="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="footer-copyright2">
+            Avenida dos Sabores, 173, Bairro Canavial,
+            Pirassununga - SP
+        </div>
+        <div id="footer-copyright">
+            &#169
+            2024 all right reserved
+        </div>
+    </footer>
+
+    <script src="assets/js/game.js"></script>
+
+</body>
+</html>
